@@ -1,0 +1,82 @@
+PADDING: Paddings criam um espaçamento dentro do elemento - Paddings afastam um elemento do outro
+
+MARGIN: Margins criam um espaçamento ao redor do elemento
+
+VAR: CRIAR VARIAVEL (CORES)
+
+CLASS: CRIAR CLASSE PARA PUXAR A TAG NO CSS
+
+1EM: É IGUAL A UMA VEZ O FONT-SIZE DO ELEMENTO.
+
+REM: (Utilizando o mesmo, pode ser acompanhado a unidade de medida do navegador) 
+
+@media: Utilizado para deixar a página responsiva. Exemplo abaixo: 
+
+@media (max-width: 1200px) {
+    .teste_1 {
+        flex-direction: column;
+    }
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BASE CORPO - HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> (CODIFICAÇÃO DE CARACTERES DA PÁGINA)
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> (INFORMA O TAMANHO DA TELA QUE ESTÁ SENDO ACESSADA)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> (ESCALA QUE ESTÁ SENDO ACESSADA)
+    <title>Document</title> (TITÚLO DA JÁNELA DO NAVEGADOR)
+    <link rel="stylesheet" href="style.css"> (TAG USADA PARA LINKAR O ARQUIVO .CSS)
+
+</head>
+<body>
+    
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Remover os padrões com o reset.css
+
+Utilizar o código do "reset.css" para resetar os estilos padrões dos navegadores.
+
+Na ausencia do arquivo "reset.css", acessar o link "https://meyerweb.com/eric/tools/css/reset/" e criar um novo arquivo .css e importar no arquivo HTML.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para comentar em algum trecho do código, utilizar "/* comentário aqui */"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Importar fontes: 
+
+Verificar qual Fonte deseja utilizar.
+
+Selecionar as fontes e o peso que deseja usar.
+
+Copiar todo o código "<link>" e colar dentro do "head" no arquivo html.
+
+Feito isso, para aplicar, criar uma variavél no styles.css e incluir o nome da fonte. Exemplo: --font-principal: "Poppins";
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como deixar a fonte em caixa alta:
+
+Utilizar a propriedade text-transform
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ajustar linhas do código:
+
+Pressionar as teclas: SHIFT + ALT + F
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Para alterar um backgroud utilizando uma cor com misturas, exemplo azul degradê:
+
+Utilizar apenas "backgroud" ao invez de "backgroud-color" se a cor desejada tiver muitas misturas.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
++	Seleciona elementos que estão logo após o elemento especificado antes do símbolo.	.container__botao + container__rotulo
+~	Seleciona elementos que estão após (mas não necessariamente em seguida) o elemento especificado antes do símbolo.	.container__botao ~ .container__rotulo
+>	Seleciona elementos que estão dentro do elemento especificado antes do símbolo.	.container__rotulo>.cabeçalho__menu-hamburguer
+
